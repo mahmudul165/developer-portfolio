@@ -1,20 +1,17 @@
-body {
-  margin: 0px;
-}
-
 #name {
   color: #ffa500;
 }
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0px;
 }
 h1 {
   font-size: 50px;
 }
-p {
+/* p {
   padding-right: 20px;
   margin-right: 170px;
-}
+} */
 .btn-color {
   background-color: #ff7152;
   color: #ffff;
@@ -23,16 +20,29 @@ p {
   border-radius: 5px;
   border-width: 0px;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: palegreen;
+}
+button:hover {
+  color: black;
+}
 
 .part {
-  margin: 0px 40px;
   display: inline-flex;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
-.half-part {
-  display: 50%;
+.half {
+  margin: 0px 55px 0px 95px;
 }
+
 .image-size {
   height: 500px;
   width: 500px;
   margin: 0px 10px;
+  margin-right: 100px;
 }
